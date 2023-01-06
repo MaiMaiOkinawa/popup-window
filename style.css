@@ -73,8 +73,18 @@
     background: none;
   }
   
-  form {
+  /* form {
     display: grid;
     gap: 1em;
   }
-  
+   */
+
+@media (max-width: 500px) {
+  iframe {
+    display: block;
+    margin:  1.25rem 1.5rem 1.25rem  1.25rem;
+    border-radius: 10px;
+    border: none;
+    width: auto;
+  }
+ }
