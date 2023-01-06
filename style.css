@@ -1,0 +1,80 @@
+.modal {
+    /* padding: 1em; */
+    max-width: 50ch;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+  
+    /* & > * {
+      margin: 0 0 0.5rem 0;
+    } */
+  }
+  
+  .modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+  }
+  
+  /* extra styling */
+  
+  body {
+    min-height: 100vh;
+    margin: 2rem;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: black;
+    /* background-image: url('https://images.unsplash.com/photo-1644242629712-943ae5c8c4f3?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0Njc1MjQxNA&ixlib=rb-1.2.1&q=85'); */
+    /* background-size: cover; */
+  }
+  
+  h1 em {
+    color: cyan;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
+
+  div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  iframe {
+    display: block;
+    margin:  1.25rem 1.5rem 1.25rem  1.25rem;
+    border-radius: 10px;
+    border: none;
+   
+  }
+
+  .open-button {
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background: cyan;
+    color: gray;
+    font-weight: 700;
+    font-size: 0.8em;
+    padding: 20px 40px;
+  }
+
+  .close-button {
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    /* background: cyan; */
+    color: gray;
+    font-weight: 700;
+    font-size: 1.2em;
+    background: none;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background: none;
+  }
+  
+  form {
+    display: grid;
+    gap: 1em;
+  }
+  
